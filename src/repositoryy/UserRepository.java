@@ -17,10 +17,7 @@ import java.sql.Statement;
  */
 public class UserRepository {
 
-    /**
-     * Creates the users table if it does not already exist.
-     * This method should be called once when the application starts.
-     */
+
     public void createTable() {
 
         String sql = """
